@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Benchmark.Benchmarks-20220415-132240</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22000
+AMD Ryzen 9 3900X, 1 CPU, 24 logical and 12 physical cores
+.NET SDK=6.0.202
+  [Host]     : .NET 6.0.4 (6.0.422.16404), X64 RyuJIT
+  DefaultJob : .NET 6.0.4 (6.0.422.16404), X64 RyuJIT
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>               Method</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Gen 0</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>Log_WithIf_WithParams</td><td>4.118 ns</td><td>0.0206 ns</td><td>0.0172 ns</td><td>-</td><td>-</td>
+</tr><tr><td>Log_WithIf_WithoutParams</td><td>3.863 ns</td><td>0.1013 ns</td><td>0.0948 ns</td><td>-</td><td>-</td>
+</tr><tr><td>Log_WithoutIf_WithParams</td><td>88.348 ns</td><td>1.3546 ns</td><td>1.1311 ns</td><td>0.0105</td><td>88 B</td>
+</tr><tr><td>Log_WithoutIf_WithoutParams</td><td>22.355 ns</td><td>0.4739 ns</td><td>0.7918 ns</td><td>-</td><td>-</td>
+</tr><tr><td>LoggerAdapter_WithParams</td><td>12.459 ns</td><td>0.2733 ns</td><td>0.2807 ns</td><td>-</td><td>-</td>
+</tr><tr><td>LoggerAdapter_WithoutParams</td><td>4.750 ns</td><td>0.1250 ns</td><td>0.1669 ns</td><td>-</td><td>-</td>
+</tr></tbody></table>
+</body>
+</html>

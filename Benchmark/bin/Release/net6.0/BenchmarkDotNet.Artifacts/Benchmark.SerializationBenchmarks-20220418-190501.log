@@ -1,0 +1,3 @@
+// Validating benchmarks:
+Only 1 benchmark method in a group can have "Baseline = true" applied to it, group DefaultJob-Stream in class SerializationBenchmarks has 2
+Only 1 benchmark method in a group can have "Baseline = true" applied to it, group DefaultJob-String in class SerializationBenchmarks has 2

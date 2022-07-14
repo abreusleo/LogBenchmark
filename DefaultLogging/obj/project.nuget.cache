@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "D9UBLw9vmxLMnZFHBYf3G/X2ZOjfp/TNWvqI5x6RguL23WfxVzbGCb52toq3vn025mJNnaFgnEDur86DNGXNEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\leona\\RiderProjects\\LoggingBestPractices\\DefaultLogging\\DefaultLogging.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leona\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0-preview.3.22175.4\\microsoft.extensions.dependencyinjection.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\leona\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0-preview.3.22175.4\\microsoft.extensions.dependencyinjection.abstractions.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\leona\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0-preview.3.22175.4\\microsoft.extensions.logging.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\leona\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0-preview.3.22175.4\\microsoft.extensions.logging.abstractions.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\leona\\.nuget\\packages\\microsoft.extensions.options\\7.0.0-preview.3.22175.4\\microsoft.extensions.options.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\leona\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-preview.3.22175.4\\microsoft.extensions.primitives.7.0.0-preview.3.22175.4.nupkg.sha512"
+  ],
+  "logs": []
+}

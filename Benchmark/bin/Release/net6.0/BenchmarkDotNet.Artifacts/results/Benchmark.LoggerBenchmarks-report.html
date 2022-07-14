@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Benchmark.LoggerBenchmarks-20220503-201938</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22000
+AMD Ryzen 9 3900X, 1 CPU, 24 logical and 12 physical cores
+.NET SDK=6.0.202
+  [Host]     : .NET 6.0.4 (6.0.422.16404), X64 RyuJIT
+  DefaultJob : .NET 6.0.4 (6.0.422.16404), X64 RyuJIT
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>        Method</th><th>Categories</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Ratio</th><th>Gen 0</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>IfLog_Params</td><td>Params</td><td>4.157 ns</td><td>0.1086 ns</td><td>0.1016 ns</td><td>0.05</td><td>-</td><td>-</td>
+</tr><tr><td>NormalLog_Params</td><td>Params</td><td>91.579 ns</td><td>1.4523 ns</td><td>1.2127 ns</td><td>1.00</td><td>0.0105</td><td>88 B</td>
+</tr><tr><td>LoggerAdapter_Params</td><td>Params</td><td>11.676 ns</td><td>0.2112 ns</td><td>0.1976 ns</td><td>0.13</td><td>-</td><td>-</td>
+</tr><tr><td>IfLog</td><td>NoParams</td><td>3.888 ns</td><td>0.0415 ns</td><td>0.0388 ns</td><td>0.17</td><td>-</td><td>-</td>
+</tr><tr><td>NormalLog</td><td>NoParams</td><td>22.508 ns</td><td>0.3569 ns</td><td>0.3339 ns</td><td>1.00</td><td>-</td><td>-</td>
+</tr><tr><td>LoggerAdapter</td><td>NoParams</td><td>4.660 ns</td><td>0.0553 ns</td><td>0.0462 ns</td><td>0.21</td><td>-</td><td>-</td>
+</tr></tbody></table>
+</body>
+</html>
